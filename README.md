@@ -5,8 +5,9 @@
 * AspectJ、ASM、ReDex 三种插桩方案，仅仅现在用到Asm 练习
 * 核心就是编译期利用gradle plugin 获取类观察器，在AdviceAdapter 进行修改
 * 便携式字节码文件 是难点 可以采用  ASM Bytecode Viewer Support Kotlin 插件辅助编写
-*  插件发布到本地然后进行本地依赖调试，后期可以发布到maven
+* 插件发布到本地然后进行本地依赖调试，后期可以发布到maven
 
+* 参考资料2 https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650244795&idx=1&sn=cdfc4acec8b0d2b5c82fd9d884f32f09&chksm=886377d4bf14fec2fc822cd2b3b6069c36cb49ea2814d9e0e2f4a6713f4e86dfc0b1bebf4d39&mpshare=1&scene=1&srcid=1217NjDpKNvdgalsqBQLJXjX%23rd
 
 
 先在编译 asm-gradle-plugin 模块中的 buildAndPublishToLocalMaven
